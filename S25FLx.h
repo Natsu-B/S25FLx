@@ -27,9 +27,10 @@ http://creativecommons.org/licenses/by-sa/3.0/deed.en_US
 #define RES         0xab    /* Release Power-down, return Device ID */
 #define RDID        0x9F      /* Read Manufacture ID, memory type ID, capacity ID */
 
-#define cs  10   //Chip select pin
+//#define cs  10   //Chip select pin
 
-#include "arduino.h"
+//#include "arduino.h"
+#include <Arduino.h>
 #include <SPI.h>
 
 #ifndef S25FLx_h
